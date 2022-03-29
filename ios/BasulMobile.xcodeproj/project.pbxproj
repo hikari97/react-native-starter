@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* absenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* absenTests.m */; };
+		00E356F31AD99517003FC87E /* BasulMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BasulMobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		486970828DEF5899DE1BAEC5 /* libPods-absen-absenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBAE28A9C9D1B7070DAAA41 /* libPods-absen-absenTests.a */; };
-		4A000D6E30C27A815207F18C /* libPods-absen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAFB4F0844A5CB538BF27F5 /* libPods-absen.a */; };
+		486970828DEF5899DE1BAEC5 /* libPods-BasulMobile-BasulMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBAE28A9C9D1B7070DAAA41 /* libPods-BasulMobile-BasulMobileTests.a */; };
+		4A000D6E30C27A815207F18C /* libPods-BasulMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAFB4F0844A5CB538BF27F5 /* libPods-BasulMobile.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7D79310C297442CD8297FB1D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC9FF307123E4D418F08700F /* AntDesign.ttf */; };
+		5BF8194FDD414C96B10A9318 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387D9AE870F04A4D80C09B72 /* Entypo.ttf */; };
+		A898FC5E564A4F4F8E11BC87 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC2D8DF8448F4B1A9DB3E25E /* EvilIcons.ttf */; };
+		B6558055D125492BB839C10B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B2483B17254A32B0467E97 /* Feather.ttf */; };
+		C22D8C8845A6449F985EFEF6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCF64992B9C04D3A8DC9A361 /* FontAwesome.ttf */; };
+		C352B83D053F4781A07A10F7 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78BA22873A1741A3BFF071CA /* FontAwesome5_Brands.ttf */; };
+		ED12BADA38584A20ABF3E8A9 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 974FFFF5957A4D46BC842D65 /* FontAwesome5_Regular.ttf */; };
+		6C061334007846FD9F368D97 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8623752863C4FA1807BDF01 /* FontAwesome5_Solid.ttf */; };
+		09FC828F3680457E87BD1C7A /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCA80E8AD8C14BEB85D9A1C6 /* Fontisto.ttf */; };
+		AA346DF472BD41059C23A8F3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC19D4FF27574882B3CE3923 /* Foundation.ttf */; };
+		D423D58E6629463583F9DC39 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E7A2C28CA974DFE809FBB9D /* Ionicons.ttf */; };
+		E534F16394C0468CBCACAC8D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 850F05D280214F27A94950E4 /* MaterialCommunityIcons.ttf */; };
+		3622A36B4BAB4385A71FE449 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF34422D69194AE5BBDB3F26 /* MaterialIcons.ttf */; };
+		52C24040AE3145EAB35134D7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF62AE59A63436B80D84B57 /* Octicons.ttf */; };
+		2374E9A29F5F47E6A9C53EE1 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76A1D97E062543CDBBFB6E34 /* SimpleLineIcons.ttf */; };
+		5978B091D6404184BE8E4284 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661F2D85068C4BBB8B94199A /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +38,44 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = absen;
+			remoteInfo = BasulMobile;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* absenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = absenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BasulMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasulMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* absenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = absenTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* absen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = absen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = absen/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = absen/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = absen/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = absen/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = absen/main.m; sourceTree = "<group>"; };
-		2193F5214764E26DA2A7F2FD /* Pods-absen-absenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-absen-absenTests.debug.xcconfig"; path = "Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EBAE28A9C9D1B7070DAAA41 /* libPods-absen-absenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-absen-absenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		727EA0E53129818A4E8471D5 /* Pods-absen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-absen.debug.xcconfig"; path = "Target Support Files/Pods-absen/Pods-absen.debug.xcconfig"; sourceTree = "<group>"; };
-		7BAFB4F0844A5CB538BF27F5 /* libPods-absen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-absen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = absen/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92C361EFC1FA6BEE25774688 /* Pods-absen-absenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-absen-absenTests.release.xcconfig"; path = "Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests.release.xcconfig"; sourceTree = "<group>"; };
-		E6705131D1D5D2B805BD16C6 /* Pods-absen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-absen.release.xcconfig"; path = "Target Support Files/Pods-absen/Pods-absen.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BasulMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasulMobileTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BasulMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasulMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BasulMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BasulMobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BasulMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BasulMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BasulMobile/main.m; sourceTree = "<group>"; };
+		2193F5214764E26DA2A7F2FD /* Pods-BasulMobile-BasulMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasulMobile-BasulMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EBAE28A9C9D1B7070DAAA41 /* libPods-BasulMobile-BasulMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasulMobile-BasulMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727EA0E53129818A4E8471D5 /* Pods-BasulMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasulMobile.debug.xcconfig"; path = "Target Support Files/Pods-BasulMobile/Pods-BasulMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		7BAFB4F0844A5CB538BF27F5 /* libPods-BasulMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasulMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BasulMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C361EFC1FA6BEE25774688 /* Pods-BasulMobile-BasulMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasulMobile-BasulMobileTests.release.xcconfig"; path = "Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6705131D1D5D2B805BD16C6 /* Pods-BasulMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasulMobile.release.xcconfig"; path = "Target Support Files/Pods-BasulMobile/Pods-BasulMobile.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BC9FF307123E4D418F08700F /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		387D9AE870F04A4D80C09B72 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC2D8DF8448F4B1A9DB3E25E /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B2483B17254A32B0467E97 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CCF64992B9C04D3A8DC9A361 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78BA22873A1741A3BFF071CA /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		974FFFF5957A4D46BC842D65 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8623752863C4FA1807BDF01 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCA80E8AD8C14BEB85D9A1C6 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC19D4FF27574882B3CE3923 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E7A2C28CA974DFE809FBB9D /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		850F05D280214F27A94950E4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF34422D69194AE5BBDB3F26 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DF62AE59A63436B80D84B57 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76A1D97E062543CDBBFB6E34 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		661F2D85068C4BBB8B94199A /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486970828DEF5899DE1BAEC5 /* libPods-absen-absenTests.a in Frameworks */,
+				486970828DEF5899DE1BAEC5 /* libPods-BasulMobile-BasulMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +91,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A000D6E30C27A815207F18C /* libPods-absen.a in Frameworks */,
+				4A000D6E30C27A815207F18C /* libPods-BasulMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* absenTests */ = {
+		00E356EF1AD99517003FC87E /* BasulMobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* absenTests.m */,
+				00E356F21AD99517003FC87E /* BasulMobileTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = absenTests;
+			path = BasulMobileTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +115,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* absen */ = {
+		13B07FAE1A68108700A75B9A /* BasulMobile */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +125,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = absen;
+			name = BasulMobile;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7BAFB4F0844A5CB538BF27F5 /* libPods-absen.a */,
-				5EBAE28A9C9D1B7070DAAA41 /* libPods-absen-absenTests.a */,
+				7BAFB4F0844A5CB538BF27F5 /* libPods-BasulMobile.a */,
+				5EBAE28A9C9D1B7070DAAA41 /* libPods-BasulMobile-BasulMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +148,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* absen */,
+				13B07FAE1A68108700A75B9A /* BasulMobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* absenTests */,
+				00E356EF1AD99517003FC87E /* BasulMobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				EEDD0B7367775CA8D1645682 /* Pods */,
+				FD1C95ADE8604EFC996ADA34 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,8 +164,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* absen.app */,
-				00E356EE1AD99517003FC87E /* absenTests.xctest */,
+				13B07F961A680F5B00A75B9A /* BasulMobile.app */,
+				00E356EE1AD99517003FC87E /* BasulMobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,21 +173,45 @@
 		EEDD0B7367775CA8D1645682 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				727EA0E53129818A4E8471D5 /* Pods-absen.debug.xcconfig */,
-				E6705131D1D5D2B805BD16C6 /* Pods-absen.release.xcconfig */,
-				2193F5214764E26DA2A7F2FD /* Pods-absen-absenTests.debug.xcconfig */,
-				92C361EFC1FA6BEE25774688 /* Pods-absen-absenTests.release.xcconfig */,
+				727EA0E53129818A4E8471D5 /* Pods-BasulMobile.debug.xcconfig */,
+				E6705131D1D5D2B805BD16C6 /* Pods-BasulMobile.release.xcconfig */,
+				2193F5214764E26DA2A7F2FD /* Pods-BasulMobile-BasulMobileTests.debug.xcconfig */,
+				92C361EFC1FA6BEE25774688 /* Pods-BasulMobile-BasulMobileTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FD1C95ADE8604EFC996ADA34 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BC9FF307123E4D418F08700F /* AntDesign.ttf */,
+				387D9AE870F04A4D80C09B72 /* Entypo.ttf */,
+				EC2D8DF8448F4B1A9DB3E25E /* EvilIcons.ttf */,
+				A7B2483B17254A32B0467E97 /* Feather.ttf */,
+				CCF64992B9C04D3A8DC9A361 /* FontAwesome.ttf */,
+				78BA22873A1741A3BFF071CA /* FontAwesome5_Brands.ttf */,
+				974FFFF5957A4D46BC842D65 /* FontAwesome5_Regular.ttf */,
+				D8623752863C4FA1807BDF01 /* FontAwesome5_Solid.ttf */,
+				FCA80E8AD8C14BEB85D9A1C6 /* Fontisto.ttf */,
+				FC19D4FF27574882B3CE3923 /* Foundation.ttf */,
+				0E7A2C28CA974DFE809FBB9D /* Ionicons.ttf */,
+				850F05D280214F27A94950E4 /* MaterialCommunityIcons.ttf */,
+				CF34422D69194AE5BBDB3F26 /* MaterialIcons.ttf */,
+				0DF62AE59A63436B80D84B57 /* Octicons.ttf */,
+				76A1D97E062543CDBBFB6E34 /* SimpleLineIcons.ttf */,
+				661F2D85068C4BBB8B94199A /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* absenTests */ = {
+		00E356ED1AD99517003FC87E /* BasulMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "absenTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BasulMobileTests" */;
 			buildPhases = (
 				8113DE36C5C73AB28FF94D3E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +225,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = absenTests;
-			productName = absenTests;
-			productReference = 00E356EE1AD99517003FC87E /* absenTests.xctest */;
+			name = BasulMobileTests;
+			productName = BasulMobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* BasulMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* absen */ = {
+		13B07F861A680F5B00A75B9A /* BasulMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "absen" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BasulMobile" */;
 			buildPhases = (
 				A2A4A65418D0A52D52D80015 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = absen;
-			productName = absen;
-			productReference = 13B07F961A680F5B00A75B9A /* absen.app */;
+			name = BasulMobile;
+			productName = BasulMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* BasulMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "absen" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BasulMobile" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +282,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* absen */,
-				00E356ED1AD99517003FC87E /* absenTests */,
+				13B07F861A680F5B00A75B9A /* BasulMobile */,
+				00E356ED1AD99517003FC87E /* BasulMobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +302,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7D79310C297442CD8297FB1D /* AntDesign.ttf in Resources */,
+				5BF8194FDD414C96B10A9318 /* Entypo.ttf in Resources */,
+				A898FC5E564A4F4F8E11BC87 /* EvilIcons.ttf in Resources */,
+				B6558055D125492BB839C10B /* Feather.ttf in Resources */,
+				C22D8C8845A6449F985EFEF6 /* FontAwesome.ttf in Resources */,
+				C352B83D053F4781A07A10F7 /* FontAwesome5_Brands.ttf in Resources */,
+				ED12BADA38584A20ABF3E8A9 /* FontAwesome5_Regular.ttf in Resources */,
+				6C061334007846FD9F368D97 /* FontAwesome5_Solid.ttf in Resources */,
+				09FC828F3680457E87BD1C7A /* Fontisto.ttf in Resources */,
+				AA346DF472BD41059C23A8F3 /* Foundation.ttf in Resources */,
+				D423D58E6629463583F9DC39 /* Ionicons.ttf in Resources */,
+				E534F16394C0468CBCACAC8D /* MaterialCommunityIcons.ttf in Resources */,
+				3622A36B4BAB4385A71FE449 /* MaterialIcons.ttf in Resources */,
+				52C24040AE3145EAB35134D7 /* Octicons.ttf in Resources */,
+				2374E9A29F5F47E6A9C53EE1 /* SimpleLineIcons.ttf in Resources */,
+				5978B091D6404184BE8E4284 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +344,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5913A8F959AD6EA9B11CC0B6 /* [CP] Embed Pods Frameworks */ = {
@@ -288,15 +361,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-absen/Pods-absen-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasulMobile/Pods-BasulMobile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7B46E8057C726FC5036D6806 /* [CP] Embed Pods Frameworks */ = {
@@ -305,15 +378,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8113DE36C5C73AB28FF94D3E /* [CP] Check Pods Manifest.lock */ = {
@@ -331,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-absen-absenTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BasulMobile-BasulMobileTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-absen-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BasulMobile-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +439,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-absen-absenTests/Pods-absen-absenTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasulMobile-BasulMobileTests/Pods-BasulMobile-BasulMobileTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +476,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* absenTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BasulMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +494,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* absen */;
+			target = 13B07F861A680F5B00A75B9A /* BasulMobile */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +502,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2193F5214764E26DA2A7F2FD /* Pods-absen-absenTests.debug.xcconfig */;
+			baseConfigurationReference = 2193F5214764E26DA2A7F2FD /* Pods-BasulMobile-BasulMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = absenTests/Info.plist;
+				INFOPLIST_FILE = BasulMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +523,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/absen.app/absen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasulMobile.app/BasulMobile";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92C361EFC1FA6BEE25774688 /* Pods-absen-absenTests.release.xcconfig */;
+			baseConfigurationReference = 92C361EFC1FA6BEE25774688 /* Pods-BasulMobile-BasulMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = absenTests/Info.plist;
+				INFOPLIST_FILE = BasulMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +547,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/absen.app/absen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasulMobile.app/BasulMobile";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727EA0E53129818A4E8471D5 /* Pods-absen.debug.xcconfig */;
+			baseConfigurationReference = 727EA0E53129818A4E8471D5 /* Pods-BasulMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = absen/Info.plist;
+				INFOPLIST_FILE = BasulMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +570,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = absen;
+				PRODUCT_NAME = BasulMobile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +579,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6705131D1D5D2B805BD16C6 /* Pods-absen.release.xcconfig */;
+			baseConfigurationReference = E6705131D1D5D2B805BD16C6 /* Pods-BasulMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = absen/Info.plist;
+				INFOPLIST_FILE = BasulMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +595,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = absen;
+				PRODUCT_NAME = BasulMobile;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +727,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "absenTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BasulMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +736,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "absen" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BasulMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "absen" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BasulMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

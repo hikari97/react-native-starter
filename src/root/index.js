@@ -22,9 +22,116 @@ export const NavigateRoot = () => {
   return (
     <NavigationContainer>
       <DefaulScreen.Navigator>
-        <DefaulScreen.Screen name="tab-screen" options={{headerShown: false}}>
+        {/* <DefaulScreen.Screen name="tab-screen" options={{headerShown: false}}>
           {() => <TabScreen />}
-        </DefaulScreen.Screen>
+        </DefaulScreen.Screen> */}
+        <Tab.Screen
+          name="Home"
+          component={Page.HomeIndex}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+        <DefaulScreen.Screen
+          name="info-pajak"
+          component={Page.IndexInfoPajak}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+        <DefaulScreen.Screen
+          name="data-pajak"
+          component={Page.IndexDataPajak}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="pendaftaran-e-samsat"
+          component={Page.IndexDaftarESamsat}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="data-e-samsat"
+          component={Page.IndexDataESamsat}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="data-pembayaran"
+          component={Page.IndexDataPembayaran}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="info-data-pembayaran"
+          component={Page.IndexInfoDataBayar}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="daftar-layanan"
+          component={Page.IndexDaftarLayanan}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="list-daftar-layanan"
+          component={Page.IndexListDaftarLayanan}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
+
+        <DefaulScreen.Screen
+          name="mekanisme-pelayanan"
+          component={Page.IndexMekanismeLayanan}
+          options={() => ({
+            gestureEnabled: true,
+            headerShown: false,
+            gestureDirection: 'horizontal',
+            detachPreviousScreen: true,
+          })}
+        />
       </DefaulScreen.Navigator>
     </NavigationContainer>
   );
